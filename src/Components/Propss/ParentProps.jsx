@@ -6,7 +6,7 @@ export const ParentProps = () => {
   return (
     <div>
       <h2>Hello i m Parent Component</h2>
-      <ChildProps NaamDedo={data} />
+      <ChildProps NaamDedo={data} NaamLelo={"okey"} />
     </div>
   );
 };
